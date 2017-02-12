@@ -1,0 +1,32 @@
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 60px;
+}
+
+.ui .message{
+  padding-top: 30px !important;
+  padding-bottom:  50px !important;
+}
+
+.ui .button{
+  text-transform: capitalize;
+}
+
+#top {
+  background: rgba(103,193,184,0.8);
+}
+
+/*.message {
+  background: none !important;
+  color: #fff !important;
+}
+*/
+a {
+  color: #1c7d73;
+}
+
+a:hover {
+  color: #23547c;
+  text-decoration: underline;
+}
