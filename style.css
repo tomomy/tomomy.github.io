@@ -2,31 +2,50 @@
 body{
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 60px;
-}
-
-.ui .message{
-  padding-top: 30px !important;
-  padding-bottom:  50px !important;
-}
-
-.ui .button{
-  text-transform: capitalize;
-}
-
-#top {
   background: rgba(103,193,184,0.8);
 }
 
-/*.message {
-  background: none !important;
-  color: #fff !important;
-}
-*/
-a {
-  color: #1c7d73;
+body > .grid {
+  height: 100%;
 }
 
-a:hover {
-  color: #23547c;
-  text-decoration: underline;
+.image {
+  margin-top: -100px;
 }
+.column {
+  max-width: 450px;
+}
+
+#profile img {
+  width: 120px;
+  border: 7px solid rgba(255, 255, 255, 0.9);
+}
+
+#profile h1 {
+  font-size: 3em !important;
+  color: #fefefe;
+  margin-bottom: 0px;
+}
+
+#profile h2 {
+  color: #fefefe;
+  margin-top: 0px;
+}
+
+#profile a {
+  color: #fefefe;
+}
+
+#profile a:hover {
+  color: #e9e9e9;
+}
+
+#footer a {
+  margin: 0 10px;
+  color: #fff;
+}
+
+#footer a:hover {
+  color: #e9e9e9;
+}
+
